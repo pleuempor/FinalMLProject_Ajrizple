@@ -4,10 +4,9 @@
 1. Project Goal and Motivation
 2. Data Collection
 3. Modeling
-4. Training
-5. Interpretation and Validation
-6. Repository Structure
-7. How to Run
+4. Interpretation and Validation
+5. Repository Structure
+6. How to Run
 
 ## Project Goal and Motivation
 The primary goal of this project is to develop a robust machine learning model capable of accurately classifying images of various big cat species. This model aims to distinguish between different species of big cats such as lions, tigers, leopards, and others. The classification model will be based on a pre-trained convolutional neural network, specifically MobileNetV2, which will be fine-tuned to enhance its performance on this specific task.

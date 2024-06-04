@@ -35,13 +35,7 @@ The model is trained on the training dataset with real-time data augmentation. T
 For the final validation, the test dataset, which was not seen by the model during training, was used to assess its performance. This provides an unbiased evaluation of the model's ability to generalize to new, unseen data.
 The results of the final validation with the test dataset are as follows:
 - Accuracy:  The model achieved an accuracy of 96.00% on the test set. This high accuracy indicates that the model can reliably classify images of big cats into their respective species. 
-- Classification Report: A detailed classification report was generated, which includes precision, recall, and F1-score for each class. These metrics provide insights into the model's performance for each individual species, highlighting its strengths and areas for improvement.
-|
-
-- Confusion Matrix:  A normalized confusion matrix was created to visualize the model's performance across all classes. The confusion matrix helps identify which species are being correctly classified and which ones are causing confusion for the model.
-- Within the Confusion Matrix there have been only 2 values les### Classification Report
-
-The classification report provides detailed performance metrics for each species in the test dataset.
+- Classification Report: A detailed classification report was generated, which includes precision, recall, and F1-score for each class. These metrics provide insights into the model's performance for each individual species, highlighting its strengths and areas for improvement. The classification report provides detailed performance metrics for each species in the test dataset. In the report below it can be seen, that the precision shows a high number from 0.83 up to 1.00 for the validation images. 
 
 | Species            | Precision | Recall | F1-Score | Support |
 |--------------------|-----------|--------|----------|---------|
@@ -59,7 +53,7 @@ The classification report provides detailed performance metrics for each species
 | **Macro avg**      | 0.97      | 0.96   | 0.96     | 50      |
 | **Weighted avg**   | 0.97      | 0.96   | 0.96     | 50      |
 
-- A normalized confusion matrix was created to visualize the model's performance across all classes. The confusion matrix helps identify which species are being correctly classified and which ones are causing confusion for the model. There were only 2 values less than 1. And these values were 0.8 - still high based on the fact that there are some big cats in the dataset which seem to have very strong similarities. The two Categories with the 0.8 value were the African Leopard and the Clouded Leopard. Considering that within the Data Set the African Leopard, Caracal, Cheetah, Clouded Leopard, Jaguar and the Snow Leopard have strong similarities, this is a value to be happy of.
+- Confusion Matrix: A normalized confusion matrix was created to visualize the model's performance across all classes. The confusion matrix helps identify which species are being correctly classified and which ones are causing confusion for the model. There were only 2 values less than 1. And these values were 0.8 - still high based on the fact that there are some big cats in the dataset which seem to have very strong similarities. The two Categories with the 0.8 value were the African Leopard and the Clouded Leopard. Considering that within the Data Set the African Leopard, Caracal, Cheetah, Clouded Leopard, Jaguar and the Snow Leopard have strong similarities, this is a value to be happy of.
 
 ### Conclusion
 The final validation demonstrates that the model performs exceptionally well in classifying big cat species, achieving high accuracy and strong performance metrics across various species. The detailed analysis using the classification report and confusion matrix provides a comprehensive understanding of the model's strengths and areas for potential improvement. This robust validation process ensures that the model is not only accurate but also reliable for real-world applications.
